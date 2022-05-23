@@ -1,8 +1,8 @@
 .text-link {
-  opacity: 1;  
+  opacity: 1;
   transition: opasity 0.5s linear;
 }
 
 .text-link:hover {
-  opacity: 0.8;  
+  opacity: 0.8;
 }
