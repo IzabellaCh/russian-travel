@@ -1,0 +1,19 @@
+.intro__list {
+  margin: 32px 0 0;
+  padding: 0;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  list-style: none;  
+}
+/*Визуально в figma числа в конце каждой строки не жирного шрифта,
+но стиль там задан один, включая стиль текста и чисел*/
+
+@media screen and (max-width: 425px) {
+  .intro__list {
+    margin: 32px 0 0;
+  }
+}

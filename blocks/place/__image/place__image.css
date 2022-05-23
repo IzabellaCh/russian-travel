@@ -1,0 +1,11 @@
+.place__image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  grid-area: image;
+  justify-self: start;
+  align-self: start;
+  object-fit: cover;
+  object-position: center;
+}
+
