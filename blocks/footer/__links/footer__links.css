@@ -2,19 +2,19 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;  
-  flex-direction: row; 
-  justify-content: flex-start; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   column-gap: 19px;
 }
 
 @media screen and (max-width: 730px) {
   .footer__links {
-    display: flex;   
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    align-items: flex-start; 
+    justify-content: space-between;
+    align-items: flex-start;
     row-gap: 31px;
   }
 }
