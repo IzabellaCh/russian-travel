@@ -1,7 +1,7 @@
 .cover {
   margin: 92px 48px 0;
   padding: 0;
-  height: 57.812vw; 
+  height: 57.812vw;
   width: calc(100% - 2*48px);
   background-image: url(../../images/cover__background.png);
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 0;  
+  z-index: 0;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
   z-index: 1;
   width: 100%;
   min-height: 100%;
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   background: #2A2C2F;
