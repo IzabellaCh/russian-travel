@@ -4,17 +4,14 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   column-gap: 19px;
 }
 
 @media screen and (max-width: 730px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
     row-gap: 31px;
   }
 }

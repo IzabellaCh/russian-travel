@@ -9,8 +9,6 @@
   color: #FFFFFF;
   list-style: none;
 }
-/*Визуально в figma числа в конце каждой строки не жирного шрифта,
-но стиль там задан один, включая стиль текста и чисел*/
 
 @media screen and (max-width: 425px) {
   .intro__list {

@@ -1,0 +1,45 @@
+.cover__background {
+  margin: 0;
+  padding: 0;
+  min-height: 57.812vw;
+  background-image: url(../../../images/cover__background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: relative;
+}
+
+.cover__background::before {
+  content: '';
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opasity 0.5s linear;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1281px) {
+  .cover__background {
+    min-height: 740px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 62.5vw;
+  }
+}

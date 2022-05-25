@@ -4,14 +4,14 @@
   width: calc(100% - 2*148px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1110px) {
   .places {
     padding: 0 48px 0;
     width: calc(100% - 2*48px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 905px) {
   .places {
     padding: 0 24px 0;
     width: calc(100% - 2*24px);
