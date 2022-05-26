@@ -8,18 +8,17 @@
   .cover {
     margin: 90px 0 0;
     width: 100%;
-    min-height: 62.5vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    margin: 88px 0 0;
+    margin: 87px 0 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
-    margin: 66px 0 0;
+    margin: 62px 0 0;
   }
 }

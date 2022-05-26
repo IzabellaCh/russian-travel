@@ -1,5 +1,5 @@
 .photo-grid {
-  margin: 92px 0 91px;
+  margin: 92px 0 90px;
   padding-top: 0;
   padding-bottom: 0;
   width: calc(100% - 2*48px);
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    margin: 89px 0 88px;
+    margin: 88px 0 88px;
     width: calc(100% - 2*24px);
     gap: 16px;
     grid-template-rows: repeat(auto-fit, 264px);
